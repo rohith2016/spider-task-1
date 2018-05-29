@@ -16,10 +16,10 @@ var tank1 = new Image();
 tank1.src ="assets/tankA.png";
 var tank2=new Image();
 tank2.src="assets/tankB.png";
-var tank1x;
-var tank2x;
-var tank1y;
-var tank2y;
+var tank1x=400;
+var tank2x=1500;
+var tank1y=400;
+var tank2y=400;
 
 // parameters - change to your liking
 var STEP_MAX = 2.5;
