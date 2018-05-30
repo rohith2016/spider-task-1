@@ -13,8 +13,14 @@ var twoChange = -1;
 var volley=5;
 var mapHeight=[];
 var tank1 = new Image();
+tank1.onload=function(){
+    //load the image
+};
 tank1.src ="assets/tankA.png";
 var tank2=new Image();
+tank2.onload=function(){
+    //load the image
+};
 tank2.src="assets/tankB.png";
 var tank1x=400;
 var tank2x=1500;
